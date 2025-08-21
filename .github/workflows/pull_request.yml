@@ -1,0 +1,11 @@
+name: CI based on pull_request
+on:
+  pull_request:
+   types: [opened, synchronize, reponed]
+    
+jobs:
+ show: 
+   runs-on: ubuntu-latest
+   steps:
+    - run: 
+       echo "hello world"
