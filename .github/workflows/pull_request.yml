@@ -1,7 +1,7 @@
 name: CI based on pull_request
 on:
   pull_request:
-   types: [opened, synchronize, reponed]
+   types: [opened, synchronize, reponed, closed]
     
 jobs:
  show: 
