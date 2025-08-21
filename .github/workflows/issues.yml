@@ -1,0 +1,11 @@
+name: CI based on issues
+on:
+  issues:
+   types: [opened, edited, reponed, closed]
+    
+jobs:
+ show: 
+   runs-on: ubuntu-latest
+   steps:
+    - run: 
+       echo "hello world"
