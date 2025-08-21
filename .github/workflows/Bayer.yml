@@ -1,0 +1,11 @@
+name: CI based on PUSH
+on:
+  push:
+    branches: [main]
+
+jobs:
+ show: 
+   runs-on: ubuntu-latest
+   steps:
+    - run: 
+       echo "hello world"
