@@ -1,4 +1,4 @@
-name: CI based on PUSH
+name: CI based on PUSH with tags
 on:
   push:
     branches: [main]
